@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+article{
+    width: 95%;
+    margin: 50px auto;
+}
+header{
+    height: 100px;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+header>span{
+    line-height: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 120px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.photo{
+    width: 19%;
+    background-color: brown;
+    height: 500px;
+}
+.left{
+    position: absolute;
+    left: 5%;
+}
+.center{
+    width: 50%;
+    height: 500px;
+    background-color: cadetblue;
+    position: absolute;
+    margin-left: 22.5%;
+}
+.right{
+    right: 5%;
+    position: absolute;
+}
