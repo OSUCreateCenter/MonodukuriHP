@@ -7,6 +7,7 @@ body{
 }
 article{
     width: 95%;
+    height: 1080px;
     margin: 50px auto;
 }
 header{
@@ -28,22 +29,30 @@ footer{
     width: 100%;
 }
 .photo{
-    width: 19%;
+    width: 18%;
     background-color: brown;
-    height: 500px;
+    height: 1000px;
 }
 .left{
-    position: absolute;
-    left: 5%;
+    margin-right: 2%;
 }
 .center{
     width: 50%;
-    height: 500px;
+    height: 1000px;
     background-color: cadetblue;
-    position: absolute;
-    margin-left: 22.5%;
+}
+.over{
+    height: 450px;
+}
+.under{
+    height: 450px;
+    background-color: blueviolet;
 }
 .right{
-    right: 5%;
-    position: absolute;
+    margin-left: 2%;
+}
+
+.inblo{
+    display: inline-block;
+    vertical-align: top;
 }
