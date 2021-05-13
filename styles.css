@@ -4,34 +4,63 @@ body{
     display: inline-block;
     width: 100%;
     text-align: center;
+    background: linear-gradient(rgb(255, 255, 255), rgba(142, 221, 255, 0.424));
+    color: rgb(80, 80, 80);
 }
 article{
-    width: 95%;
-    height: 1080px;
-    margin: 50px auto;
+    width: 100%;
+    height: auto;
+    padding-bottom:100px ;
 }
 header{
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    text-align: center;
     font-size: 30px;
 }
-header>span{
+
+/* index.html==============================↓ */
+.link{
+    float: right;
+    width: 15%;
+    margin-top: 28px;
+}
+.link>a{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    margin-right: 0%;
+}
+.link>a:hover{
+    color: rgb(0, 187, 200);
+}
+header>span>a{
+    left: 50px;
     line-height: 100px;
+    color: rgb(109, 109, 109);
+    font-size: 40px;
+    position: absolute;
+    text-decoration: none;
 }
 footer{
     background-color: black;
     color: white;
     height: 120px;
-    bottom: 0;
     position: absolute;
     width: 100%;
 }
-.photo{
-    width: 18%;
-    background-color: brown;
-    height: 1000px;
+.photo-box{
+    width: 17%;
+    height: auto;
+    background-image: url(images/board.jpg);
+    padding: 1.5%;
+    border: rgb(185, 145, 112) 10px solid;
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+    border-radius: 10px;
+}
+img{
+    vertical-align: top;
+    margin-top: 30px;
 }
 .left{
     margin-right: 2%;
@@ -39,14 +68,16 @@ footer{
 .center{
     width: 50%;
     height: 1000px;
-    background-color: cadetblue;
+    border-radius: 5px;
 }
 .over{
     height: 450px;
+    background-color: rgba(159, 204, 206, 0.452);
 }
 .under{
     height: 450px;
-    background-color: blueviolet;
+    background-color: rgba(255, 148, 148, 0.452);
+    margin-bottom: 50px;
 }
 .right{
     margin-left: 2%;
@@ -55,4 +86,34 @@ footer{
 .inblo{
     display: inline-block;
     vertical-align: top;
+}
+h1{
+    color: rgb(58, 58, 58);
+    font-size: 30px;
+}
+.btn{
+    background-color: rgb(19, 154, 195);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(200, 123, 78);
+}
+
+/* activities.html==============================↓ */
+.activity{
+    width: 85%;
+    margin: 0 auto 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.title{
+    background-color: teal;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
 }
