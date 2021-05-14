@@ -90,6 +90,7 @@ img{
 h1{
     color: rgb(58, 58, 58);
     font-size: 30px;
+    line-height: 150px;
 }
 .btn{
     background-color: rgb(19, 154, 195);
@@ -100,6 +101,24 @@ h1{
 }
 .btn:hover{
     background-color: rgb(200, 123, 78);
+}
+
+.in-header>div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.in-header>div>:nth-child(1){
+    margin-left: -30px;
+}
+
+.riku{
+    float: left;
+    margin-top: 0;
+}
+
+.in-top>h2{
+    line-height: 100px;
 }
 
 /* activities.html==============================↓ */
@@ -116,4 +135,32 @@ h1{
     font-size: 25px;
     text-align: left;
     padding-left: 2%;
+}
+
+/* form.html==============================↓ */
+.form-box{
+    height: 800px;
+}
+
+.form-box>form>span{
+    display: inline-block;
+    width: 100px;
+}
+
+.form{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(105, 105, 105);
+}
+.name-form{
+    margin-bottom: 20px;
+    vertical-align: left;
+}
+.grade-form{
+    width: 170px;
+}
+.content-form{
+    width: 500px;
+    height: 200px;
 }

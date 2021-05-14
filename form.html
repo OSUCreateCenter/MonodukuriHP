@@ -11,7 +11,15 @@
 <body>
     <!----- header----->
     <header>
-        <span>ものづくり育成プロジェクト</span>
+        <span><a href="index.html">ものづくり育成プロジェクト</a></span>
+
+        <div class="link">
+            <a href="FAQ.html">よくあるご質問</a>
+        </div>
+
+        <div class="link">
+            <a href="activities.html">これまでの活動</a>
+        </div>
     </header>
     <!----- /header ----->
 
@@ -19,15 +27,33 @@
     <article>
         <h1>応募フォーム</h1>
 
-        <form action="">
-            お名前<br>
-            <input type="text"><br>
-            学年<br>
-            <input type="text"><br>
-
-            <button>応募する</button>
-            <button>戻る</button>
-        </form>
+        <div class="form-box">
+            <form method="POST" action="mailto:s-create2020@outlook.com">
+                <H3>お名前</H3>
+                <input type="text" class="name-form form" placeholder="山田 太郎">
+                <H3>ふりがな</H3>
+                <input type="text" class="name-form form" placeholder="やまだ　たろう">
+                <H3>学年</H3>
+                <select name="grade" class="grade-form form">
+                    <option value="">学年を選んでください</option>
+                    <option value="grade1">小学1年生</option>
+                    <option value="grade2">小学2年生</option>
+                    <option value="grade3">小学3年生</option>
+                    <option value="grade4">小学4年生</option>
+                    <option value="grade5">小学5年生</option>
+                    <option value="grade6">小学6年生</option>
+                    <option value="grade7">中学1年生</option>
+                    <option value="grade8">中学2年生</option>
+                    <option value="grade9">中学3年生</option>
+                </select>
+                <H3>内容</H3>
+                学校名
+                電話番号
+                <textarea type="text" class="content-form form" placeholder="応募の理由などを書いてください(最大500文字)" minlength="5" maxlength="500"></textarea><br>    
+                <input type="submit" value="送信"class="btn"><br>
+                <button class="btn back">戻る</button>
+            </form>
+        </div>
 
     </article>
     <!----- /main ----->
