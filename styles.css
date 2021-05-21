@@ -142,25 +142,18 @@ h1{
     height: 800px;
 }
 
-.form-box>form>span{
-    display: inline-block;
-    width: 100px;
+.caution{
+    background-color: rgb(228, 205, 156);
+    width: 70%;
+    padding:  10px 20px 40px;
+    margin: 20px auto;
+    font-weight: bold;
 }
 
-.form{
-    border-radius: 5px;
-    width: 200px;
-    height: 30px;
-    border: 1px solid rgb(105, 105, 105);
-}
-.name-form{
-    margin-bottom: 20px;
-    vertical-align: left;
-}
-.grade-form{
-    width: 170px;
-}
-.content-form{
-    width: 500px;
-    height: 200px;
+.howto{
+    width: 70%;
+    background-color: rgb(196, 229, 255);
+    padding: 10px 20px 40px;
+    margin: 20px auto 50px;
+    text-align: left;
 }
