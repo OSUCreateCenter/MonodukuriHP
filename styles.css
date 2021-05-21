@@ -42,9 +42,10 @@ header>span>a{
     text-decoration: none;
 }
 footer{
-    background-color: black;
+    background-color: rgb(68, 68, 68);
     color: white;
-    height: 120px;
+    height: 60px;
+    line-height: 60px;
     position: absolute;
     width: 100%;
 }
@@ -119,6 +120,11 @@ h1{
 
 .in-top>h2{
     line-height: 100px;
+}
+
+.f-link{
+    color: rgb(255, 255, 255);
+    margin: 0 40px;
 }
 
 /* activities.html==============================↓ */
