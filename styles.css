@@ -161,5 +161,21 @@ h1{
     background-color: rgb(196, 229, 255);
     padding: 10px 20px 40px;
     margin: 20px auto 50px;
-    text-align: left;
+    text-align: center;
 }
+
+/* FAQ.html==============================↓ */
+.act-text{
+    padding-bottom:20px ;
+}
+
+
+/* スマホ　レスポンシブ対応==============================↓ */
+@media screen and (max-width: 480px){
+    header>span>a{
+        font-size: 20px;
+    }
+    .link>a{
+        font-size: 20px;
+    }
+ }
