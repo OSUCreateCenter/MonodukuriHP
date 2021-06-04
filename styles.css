@@ -282,6 +282,17 @@ h1{
         width: 94%;
         padding: 10px 3% 20px;
     }
+    .form-box>.btn{
+        width: auto;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .caution{
+        font-size: 12px;
+    }
+    .howto{
+        font-size:12px ;
+    }
 
     /* FAQ.html==============================↓ */
     .activity{
