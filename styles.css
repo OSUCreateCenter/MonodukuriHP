@@ -46,7 +46,7 @@ footer{
     color: white;
     height: 60px;
     line-height: 60px;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 footer>div{
@@ -71,22 +71,26 @@ img{
 }
 .center{
     width: 50%;
-    height: 1000px;
+    height: 1500px;
     border-radius: 5px;
 }
 .over{
-    height: 250px;
+    height: auto;
+    padding-bottom: 20px;
     background-color: rgba(159, 204, 206, 0.452);
 }
 .middle{
-    height: 250px;
+    height: auto;
+    padding-bottom: 20px;
     background-color: rgb(235, 228, 134);
 }
 .under{
-    height: 450px;
+    height: auto;
+    padding-bottom: 20px;
     background-color: rgba(255, 148, 148, 0.452);
     margin-bottom: 50px;
 }
+
 .right{
     margin-left: 2%;
 }
@@ -240,10 +244,10 @@ h1{
         font-size: 12px;
     }
     .over{
-        height: 300px;
+        height: auto;
     }
     .under{
-        height: 350px;
+        height: auto;
     }
     .hide-br{
         display: inline-block;
