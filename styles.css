@@ -131,7 +131,8 @@ h1{
 }
 
 .in-top>h2{
-    line-height: 100px;
+    line-height: 50px;
+    margin-bottom: 0;
 }
 
 .f-link{
@@ -198,6 +199,7 @@ h1{
 /* スマホ　レスポンシブ対応==============================↓ */
 /* index.html==============================↓ */
 @media screen and (max-width: 480px){
+
     header>span>a{
         font-size:15px;
         margin: 0 auto;
@@ -246,9 +248,14 @@ h1{
     }
     .over{
         height: auto;
+        padding: 5%;
+    }
+    .middle{
+        padding: 5%;
     }
     .under{
         height: auto;
+        padding: 5%;
     }
     .hide-br{
         display: inline-block;
