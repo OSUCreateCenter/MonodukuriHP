@@ -105,12 +105,11 @@ h1{
     line-height: 150px;
 }
 .btn{
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(84, 169, 194);
     padding: 20px;
     color: white;
     text-decoration: none;
     border-radius: 10px;
-    pointer-events: none;
 }
 .btn:hover{
     background-color: rgb(200, 123, 78);
