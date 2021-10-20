@@ -115,6 +115,13 @@ h1{
     background-color: rgb(200, 123, 78);
 }
 
+.btn-fin{
+    background-color: rgb(150, 178, 187);
+    padding: 20px;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    border-radius: 10px;
+}
 .in-header>div{
     display: inline-block;
     vertical-align: top;
