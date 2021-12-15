@@ -71,7 +71,7 @@ img{
 }
 .center{
     width: 50%;
-    height: 1500px;
+    height: auto;
     border-radius: 5px;
 }
 .over{
