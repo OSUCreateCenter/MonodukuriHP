@@ -121,6 +121,9 @@ h1{
     color: rgb(27, 27, 27);
     text-decoration: none;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    margin: 0 auto;
 }
 .in-header>div{
     display: inline-block;
