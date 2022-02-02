@@ -104,6 +104,9 @@ h1{
     font-size: 30px;
     line-height: 150px;
 }
+h3{
+    color: red;
+}
 .btn{
     background-color: rgb(84, 169, 194);
     padding: 20px;
