@@ -20,6 +20,7 @@ header{
 }
 
 /* index.html==============================↓ */
+
 .link{
     float: right;
     width: 15%;
@@ -73,6 +74,9 @@ img{
     width: 50%;
     height: auto;
     border-radius: 5px;
+}
+.move{
+    width: 100%;
 }
 .over{
     height: auto;
