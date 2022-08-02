@@ -7,6 +7,9 @@ body{
     background: linear-gradient(rgb(255, 255, 255), rgba(142, 221, 255, 0.424));
     color: rgb(80, 80, 80);
 }
+h3{
+    color: red;
+}
 article{
     width: 100%;
     height: auto;
